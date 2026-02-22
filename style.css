@@ -149,3 +149,123 @@ button {
     top: 88%;
     left: 35%;
 }
+.about-info h1{
+    width: 1200px;
+    height: 58px;
+    padding: 20px;
+    font-size:48 ;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+.about-info p{
+    width: 1200px;
+    height: 148px;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: gainsboro;
+}
+.about-info{
+    position: relative;
+}
+.about-info hr{
+    width: 1200px;
+    position: absolute;
+    left: 5%;
+    color: gray;
+}
+.stats-area{
+    margin: 100px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+    line-height: 0%;
+}
+.stats-area p{
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: gainsboro;
+}
+.stats-area h1{
+    color: rgba(0, 255, 136, 1);
+    padding: 20px;
+    font-size:50px;
+   font-weight: bolder;
+    text-align: center;
+}
+.audio-box ,.device-box, .community-box, .interview-box, .resource-box{
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.audio-box p {
+    color: rgb(191, 187, 187);
+    width: 300px;
+    height: 144px;
+    font-size: 14px;
+}
+.device-box p {
+    color: rgb(203, 196, 196);
+    width: 450px;
+    height: 144px;
+    font-size: 14px;
+}
+.community-box p {
+    color: rgb(186, 182, 182);
+     width: 450px;
+    height: 144px;
+    font-size: 14px;
+}
+.interview-box p {
+    color: rgb(179, 174, 174);
+    width: 450px;
+    height: 144px;
+    font-size: 14px;
+}
+.resource-box p {
+    color: rgb(174, 169, 169);
+     width: 450px;
+    height: 144px;
+    font-size: 14px;
+}
+.audio-box h3 {
+    color: white;
+    width: 300px;
+    height: 29px;
+    font-size: 24px;
+}
+.device-box h3 {
+    color: white;
+ width: 300px;
+    height: 29px;
+    font-size: 24px;
+}
+.community-box h3 {
+    color: white;
+   width: 300px;
+    height: 29px;
+    font-size: 24px;;
+}
+.interview-box h3 {
+    color: white;
+   width: 300px;
+    height: 29px;
+    font-size: 24px;;
+}
+.resource-box h3 {
+    color: white;
+    width: 300px;
+    height: 29px;
+    font-size: 24px;;
+}
+.interview-box img{
+    width: 60px;
+    height: 60px;
+    background-color: orchid;
+    border-radius: 50%;
+}
