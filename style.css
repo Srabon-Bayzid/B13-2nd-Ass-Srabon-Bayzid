@@ -53,3 +53,99 @@ nav .nav-btn{
     border-radius: 30px;
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
+.banner{
+  background-image: url("./assets/hero-bg.png");
+    width: 100vw;
+  height: 500px;
+   background-position: center;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+}
+.banner-circle img{
+    position: absolute;
+    width: 370px;
+    height: 360px;
+    padding: 20px;
+    left: 36%;  
+}
+.banner-mic img{
+    position: absolute;
+    top:15%;
+    left: 45%;  
+}
+.banner-btns button:hover{
+    background-color: black;
+}
+.banner-btns{
+    display: flex;
+    gap: 20px;
+}
+.banner-btns button {
+    width: 201px;
+    height: 44px;
+    border-radius: 20px;
+    color: black;
+    justify-content: space-between;
+}
+.banner-btns button img {
+  width: 15px;
+  height: 15px;
+}
+.banner-btns .spotify-btn span{
+    color: white;
+}
+.banner-btns .sub-btn span{
+    color: white;
+}
+.banner-btns .spotify-btn{
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    display: flex;
+    gap: 5px;
+    padding-top: 13px;
+   padding-left: 30px;
+   padding-right: 30px;
+
+}
+.banner-btns .sub-btn{
+     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+   display: flex;
+   padding-top: 13px;
+   padding-left: 30px;
+   padding-right: 30px;
+   border: 1px solid green;
+}
+button {
+    cursor: pointer;
+}
+
+.spotify-btn:hover {
+    background-color: #000;
+}
+.banner-heading h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    width: 550px;
+    height: 73px;
+    text-align: center;
+}
+.banner-heading p{
+    font-size: 16px;
+    width: 550px;
+    height: 19px;
+    text-align: center;
+}
+.banner-heading{
+   padding: 20px;
+    position: absolute;
+    width: 550px;
+    height: 100px;
+    top:63%;
+    left: 27%;
+}
+.banner-btns{
+    position: absolute;
+    top: 88%;
+    left: 35%;
+}
